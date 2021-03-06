@@ -16,9 +16,11 @@ public class MainMenu : MonoBehaviour
     }
     public void QuitGame()
     {
-        Debug.Log("QUIT!");
-        Application.Quit();
-    
+       
+            Application.Quit();
+       
+      
+
     }
 
     public void BackToMenu (int SceneIndex)

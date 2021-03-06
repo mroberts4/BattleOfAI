@@ -573,7 +573,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 0.8396226, g: 0.13069598, b: 0.13069598, a: 1}
+  m_Color: {r: 1, g: 0.9607843, b: 0, a: 1}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
@@ -581,18 +581,22 @@ MonoBehaviour:
       m_Calls: []
   m_FontData:
     m_Font: {fileID: 10102, guid: 0000000000000000e000000000000000, type: 0}
-    m_FontSize: 35
-    m_FontStyle: 1
+    m_FontSize: 18
+    m_FontStyle: 3
     m_BestFit: 0
-    m_MinSize: 3
+    m_MinSize: 0
     m_MaxSize: 40
-    m_Alignment: 6
+    m_Alignment: 7
     m_AlignByGeometry: 0
     m_RichText: 1
-    m_HorizontalOverflow: 0
+    m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: Story Goes here.
+  m_Text: "Izaria, the elder dragon of the land of Vilzor, is able to control the
+    minions of the land, much like a hive mind.\nThis elder dragon is able to control
+    many small minions to fight for it, allowing it to learn from previous encounters,
+    \nonly educating the elder dragon more. Through this Izaria is able to create
+    stronger minions that know how to fight.\r\n\r\n"
 --- !u!222 &1957833678
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -639,7 +643,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 205, y: -175}
-  m_SizeDelta: {x: 160, y: 30}
+  m_SizeDelta: {x: 225, y: 30}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &2028299333
 MonoBehaviour:
@@ -661,10 +665,10 @@ MonoBehaviour:
     m_SelectOnRight: {fileID: 0}
   m_Transition: 1
   m_Colors:
-    m_NormalColor: {r: 0.7551887, g: 0.764151, b: 0.21266466, a: 1}
-    m_HighlightedColor: {r: 0.95944095, g: 0.9811321, b: 0.41189036, a: 1}
-    m_PressedColor: {r: 0.7924528, g: 0.7101999, b: 0.1981132, a: 1}
-    m_SelectedColor: {r: 0.8962264, g: 0.66187036, b: 0.04650232, a: 1}
+    m_NormalColor: {r: 0.7551887, g: 0.764151, b: 0.21266466, a: 0.83137256}
+    m_HighlightedColor: {r: 0.9845959, g: 0.990566, b: 0, a: 1}
+    m_PressedColor: {r: 0.754717, g: 0.6740161, b: 0.17443931, a: 1}
+    m_SelectedColor: {r: 0.96285176, g: 1, b: 0, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
     m_ColorMultiplier: 1.27
     m_FadeDuration: 0.1
@@ -708,7 +712,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 0}
+  m_Color: {r: 0.7830189, g: 0.7294472, b: 0.15143289, a: 0.4117647}
   m_RaycastTarget: 1
   m_Maskable: 1
   m_OnCullStateChanged:
