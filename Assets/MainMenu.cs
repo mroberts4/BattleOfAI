@@ -30,4 +30,14 @@ public class MainMenu : MonoBehaviour
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
     }
 
+    public void ChangeToOptionsScreen(int SceneIndex)
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex + 2);
+    }
+
+    public void LoadMainMenu()
+    {
+        Application.LoadLevel("MainMenu_v2");
+    }
 }
