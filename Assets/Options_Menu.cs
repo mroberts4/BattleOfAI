@@ -5,11 +5,11 @@ using UnityEngine.SceneManagement;
 
 public class Options_Menu : MonoBehaviour
 {
-    public void BackToMainMenu(int SceneIndex)
+    public void BackButton()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
-
-        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex - 1);
+        int prevLvl = PlayerPrefs.GetInt("prevLvl");
+        SceneManager.LoadScene(prevLvl);
+       
     }
 
 }
